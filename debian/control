@@ -1,0 +1,12 @@
+Source: ros-humble-teleop-tools
+Section: misc
+Priority: optional
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-teleop-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-joy-teleop, ros-humble-key-teleop, ros-humble-teleop-tools-msgs, ros-humble-ros-workspace
+Description: A set of generic teleoperation tools for any robot.
