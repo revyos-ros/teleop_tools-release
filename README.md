@@ -1,3 +1,31 @@
+## teleop_tools (jazzy) - 1.6.0-1
+
+The packages in the `teleop_tools` repository were released into the `jazzy` distro by running `/home/z572/gits/revyos-ros/venv2/bin/bloom-release -r jazzy teleop_tools --override-release-repository-push-url git@github.com:revyos-ros/teleop_tools-release.git` on `Wed, 09 Oct 2024 06:03:16 -0000`
+
+These packages were released:
+- `joy_teleop`
+- `key_teleop`
+- `mouse_teleop`
+- `teleop_tools`
+- `teleop_tools_msgs`
+
+Version of package(s) in repository `teleop_tools`:
+
+- upstream repository: https://github.com/ros-teleop/teleop_tools.git
+- release repository: https://github.com/revyos-ros/teleop_tools-release.git
+- rosdistro version: `1.6.0-1`
+- old version: `1.5.1-1`
+- new version: `1.6.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## teleop_tools (humble) - 1.6.0-1
 
 The packages in the `teleop_tools` repository were released into the `humble` distro by running `/home/z572/gits/revyos-ros/venv2/bin/bloom-release -r humble teleop_tools --override-release-repository-push-url git@github.com:revyos-ros/teleop_tools-release.git` on `Tue, 08 Oct 2024 07:14:14 -0000`
