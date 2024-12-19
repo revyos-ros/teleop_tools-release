@@ -1,0 +1,12 @@
+Source: ros-jazzy-teleop-tools
+Section: misc
+Priority: optional
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-teleop-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-joy-teleop, ros-jazzy-key-teleop, ros-jazzy-teleop-tools-msgs, ros-jazzy-ros-workspace
+Description: A set of generic teleoperation tools for any robot.
