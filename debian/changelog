@@ -1,0 +1,189 @@
+ros-jazzy-key-teleop (2.0.0-1noble) noble; urgency=high
+
+
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Wed, 23 Apr 2025 00:00:00 -0000
+
+ros-jazzy-key-teleop (1.8.0-1noble) noble; urgency=high
+
+  * Default to TwistStamped (#90 <https://github.com/ros-teleop/teleop_tools/issues/90>)
+  * Contributors: Bence Magyar
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Wed, 16 Apr 2025 00:00:00 -0000
+
+ros-jazzy-key-teleop (1.7.0-1noble) noble; urgency=high
+
+
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Wed, 06 Nov 2024 00:00:00 -0000
+
+ros-jazzy-key-teleop (1.6.0-1noble) noble; urgency=high
+
+
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Tue, 01 Oct 2024 00:00:00 -0000
+
+ros-jazzy-key-teleop (1.5.1-1noble) noble; urgency=high
+
+
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Mon, 02 Sep 2024 00:00:00 -0000
+
+ros-jazzy-key-teleop (1.5.0-1noble) noble; urgency=high
+
+  * replace deprecated dash by underscore (#85 <https://github.com/ros-teleop/teleop_tools/issues/85>)
+  * Contributors: Noel Jiménez García
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Wed, 01 Nov 2023 00:00:00 -0000
+
+ros-jazzy-key-teleop (1.4.0-1noble) noble; urgency=high
+
+
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Tue, 28 Mar 2023 00:00:00 -0000
+
+ros-jazzy-key-teleop (1.3.0-1noble) noble; urgency=high
+
+  * Fix some warnings from tests.
+    In here are some flake8 fixes and fixes to the joy_teleop tests
+    now that some of the error messages have changed.
+  * added ability to use twiststamped
+  * add ci & lint
+  * Add QoS profile to key_teleop publisher
+  * Contributors: Andreas Klintberg, Chris Lalancette, Kazunari Tanaka, nfry321
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Wed, 23 Nov 2022 00:00:00 -0000
+
+ros-jazzy-key-teleop (1.2.1-1noble) noble; urgency=high
+
+
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Thu, 29 Oct 2020 00:00:00 -0000
+
+ros-jazzy-key-teleop (1.2.0-1noble) noble; urgency=high
+
+
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Fri, 16 Oct 2020 00:00:00 -0000
+
+ros-jazzy-key-teleop (1.1.0-1noble) noble; urgency=high
+
+
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Tue, 21 Apr 2020 00:00:00 -0000
+
+ros-jazzy-key-teleop (1.0.2-1noble) noble; urgency=high
+
+
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Mon, 10 Feb 2020 00:00:00 -0000
+
+ros-jazzy-key-teleop (1.0.1-1noble) noble; urgency=high
+
+  * Fix install rules and dashing changes (#38 <https://github.com/ros-teleop/teleop_tools/issues/38>)
+    * fix ament indexing
+    * fix package resource files
+    * add tk depenndency
+    * add check for param index-ability
+    * data files are now package agnostic
+    Signed-off-by: Ted Kern <mailto:ted.kern@canonical.com>
+  * Contributors: Ted Kern
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Wed, 18 Sep 2019 00:00:00 -0000
+
+ros-jazzy-key-teleop (1.0.0-1noble) noble; urgency=high
+
+  * ROS2 port (#35 <https://github.com/ros-teleop/teleop_tools/issues/35>)
+    * ROS2 port
+    * key_teleop pkg format 3
+    * port teleop_tools_msgs
+    * key_teleop catch KeyboardInterrupt
+    * port mouse_teleop
+    * add key_teleop.yaml
+    * prepare tests
+    * add xmllint test
+    * fix xmllint tests
+    * simplify joy_teleop retrieve_config
+    * remove useless class KeyTeleop
+    * Fixes for dynamic topic joy publishers
+    - match_command() now compares button array length to the max
+    deadman button index (apples to apples)
+    - match_command function now checks if any of the deadman buttons
+    are depressed before returning a match
+    - properly handle a std_msgs/msg/Empty 'message_value' by not
+    attempting to access its value
+    - utilizes iter-items to correctly index into the config dict
+    for 'axis_mappings''s 'axis' and 'button' values
+    - set_member() now splits according to a dash (-) rather than a
+    periond (.) to be consistent with ros2 param parsing & example yaml
+    - adds the correct name to setup.py for test_key_teleop.py test
+    * reduce copy/pasta
+  * Contributors: Jeremie Deray
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Tue, 10 Sep 2019 00:00:00 -0000
+
+ros-jazzy-key-teleop (0.3.0-1noble) noble; urgency=high
+
+
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Thu, 03 Jan 2019 00:00:00 -0000
+
+ros-jazzy-key-teleop (0.2.6-1noble) noble; urgency=high
+
+
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Fri, 06 Apr 2018 00:00:00 -0000
+
+ros-jazzy-key-teleop (0.2.5-1noble) noble; urgency=high
+
+
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Fri, 21 Apr 2017 00:00:00 -0000
+
+ros-jazzy-key-teleop (0.2.4-1noble) noble; urgency=high
+
+
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Wed, 30 Nov 2016 00:00:00 -0000
+
+ros-jazzy-key-teleop (0.2.3-1noble) noble; urgency=high
+
+
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Mon, 18 Jul 2016 00:00:00 -0000
+
+ros-jazzy-key-teleop (0.2.2-1noble) noble; urgency=high
+
+
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Thu, 24 Mar 2016 00:00:00 -0000
+
+ros-jazzy-key-teleop (0.2.1-1noble) noble; urgency=high
+
+
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Fri, 29 Jan 2016 00:00:00 -0000
+
+ros-jazzy-key-teleop (0.2.0-1noble) noble; urgency=high
+
+  * Update package.xmls
+  * Contributors: Bence Magyar
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Mon, 03 Aug 2015 00:00:00 -0000
+
+ros-jazzy-key-teleop (0.1.2-1noble) noble; urgency=high
+
+
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Sun, 15 Feb 2015 00:00:00 -0000
+
+ros-jazzy-key-teleop (0.1.1-1noble) noble; urgency=high
+
+  * Change maintainer
+  * Remove rosbuild legacy
+  * Merge key_teleop into teleop_tools
+  * Contributors: Bence Magyar, Paul Mathieu
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Mon, 17 Nov 2014 00:00:00 -0000
+
+
